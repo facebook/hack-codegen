@@ -76,7 +76,7 @@ echo $cg->codegenFile('HelloWorld.php')
 ```
 
 ## Configuration
-You can configure some options such as the maximum line width, spacing and
+You can configure some options such as maximum line width, spacing and
 headers by implementing `IHackCodegenConfig` and passing an instance to
 `HackCodegenFactory`'s constructor.
 
